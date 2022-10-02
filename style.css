@@ -20,6 +20,7 @@ font-style: normal;
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 body{
@@ -75,9 +76,9 @@ nav > a{
     text-decoration: none;
     font-family: var(--font-destaque);
     font-weight: bold;
-    margin-right: 30px;
+    margin-right: 20px;
     border-radius: 5px;
-    font-size: 1.36em;
+    font-size: 1.2em;
     padding: 10px;
     margin: 10px;
     transition-duration: 0.5s;
@@ -104,24 +105,27 @@ main{
 
 main img{
     width: 100%;
+    padding-bottom: 15px;
 }
 
 main img.pequena{
     max-width: 350px;
     margin: auto;
     display: block;
+    padding-bottom: 15px;
 }
+
 
 main h1{
     font-family: var(--font-android);
-    font-size: 2em;
     font-weight: normal;
-    font-size: 1.8em;
+    font-size: 1.5em;
+    padding: 5px;
 }
 
 main h2{
     font-family: var(--font-android);
-    font-size: 1.5em;
+    font-size: 1.35em;
     font-weight: normal;
     color: #123345;
     background-image: linear-gradient(to right,  #88bcd8, transparent);
@@ -194,6 +198,57 @@ aside > h3 {
 
 }
 
+/* Configuração - página Fale Conosco */
+section#contato div {
+    background-color: #455559;
+    padding: 32px;
+    padding-top: 24px;
+    border-radius: 8px;
+}
+
+main div#contato a {
+    background-color: #455559;
+}
+
+main section {
+    color: white;
+    background-image: linear-gradient(95deg, #9572FC, #43E7AD, #E2D45C);
+    padding-top: 4px;
+    border-radius: 10px;
+
+    animation: fromBottom .7s backwards;
+}
+
+section#contato ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+
+    margin-top: 24px;
+}
+
+section#contato ul li {
+    transition: transform .4s;
+
+}
+
+section#contato ul li:hover {
+    transform: scale(1.1); 
+}
+
+.social-list img {
+    width: 70px;
+    height: 70px;
+}
+
+
+header div#contato:hover {
+    transform: scale(1.1);
+
+}
+
+/* Rodapé do site */
 footer {
     background-color: black;
     color: white;
