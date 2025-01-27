@@ -14,7 +14,3 @@ Nesse site o usuário vai coseguir compreender a evolução do Android ao longo 
 - HTML5
 - CSS3
 - Git e Github
-
-## 📲 Contato
-
-Email: ramon_barreto_medrado@hotmail.com
